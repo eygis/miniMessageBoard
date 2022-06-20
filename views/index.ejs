@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <p>Add a <a href="/new">new message</a></p>
+    <h2>Messages:</h2>
+    <% messages.forEach(message => { %>
+    <div class="messageDiv">
+      <div class="top"><p>From <%= message.user %> on <%= message.added %></p></div>
+      <div class="bottom"><p><%= message.text %></p></div>
+    </div>
+    <% }); %>
+  </body>
+</html>

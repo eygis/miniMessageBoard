@@ -1,0 +1,31 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+h2 {
+  font-weight: normal;
+}
+
+.messageDiv {
+  border: solid black;
+  margin: 2rem;
+  width: 10%;
+  padding: 0 1rem;
+}
+
+.top {
+  border-bottom: 1px solid grey;
+}
+
+.bottom {
+  font-size: 1.5rem;
+}
